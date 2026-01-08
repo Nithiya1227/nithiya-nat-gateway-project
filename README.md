@@ -1,4 +1,4 @@
-# NAT Gateway Project: Private EC2 with Secure Internet Access
+# AWS Mini Project 10 - NAT Gateway Project: Private EC2 with Secure Internet Access
 
 ## 📌 Project Overview
 This project demonstrates how to deploy a **private EC2 instance** in a custom VPC with **secure outbound internet access** using a **NAT Gateway**. Public and private subnets are clearly separated following AWS best practices. A bastion host in the public subnet is used for secure SSH access to the private EC2.
