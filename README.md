@@ -6,7 +6,7 @@ This project demonstrates how to deploy a **private EC2 instance** in a custom V
 ---
 
 ## 🏗️ Architecture Diagram
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](architecture-NAT.png)
 
 **Key Components:**
 - **VPC:** Custom isolated network (`10.0.0.0/16`)  
@@ -18,10 +18,10 @@ This project demonstrates how to deploy a **private EC2 instance** in a custom V
 ---
 
 ## 📸 Project Screenshots
-1. **VPC Overview:** ![VPC Overview](screenshots/vpc-overview.png)  
-2. **Private Route Table → NAT Gateway:** ![Private Route Table](screenshots/private-route-table.png)  
-3. **Private EC2 (No Public IP):** ![Private EC2](screenshots/private-ec2.png)  
-4. **Terminal NAT Test:** ![Terminal Test](screenshots/terminal-test.png)  
+1. **VPC Overview:** ![VPC Overview](screenshots/vpc-architecture.png)  
+2. **VPC Route Table → NAT Gateway:** ![VPC Route Table](screenshots/vpc-rout.png)  
+3. **Private EC2 (No Public IP):** ![Private EC2](screenshots/ec2-privateIP.png)  
+4. **Terminal NAT Test:** ![Terminal Test](screenshots/terminal.png)  
 
 ---
 
